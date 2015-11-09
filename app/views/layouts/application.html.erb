@@ -1,0 +1,68 @@
+ 
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="author" content="KoinWorks" />
+	<meta name="copyright" content="©2015 KoinWorks. All rights reserved." />
+	<title>KoinWorks | Democratizing Finance</title>
+
+	<!-- <link rel="shortcut icon" href="favicon.ico"> -->
+	<!-- <link href="reset.css" rel="stylesheet" type="text/css" /> -->
+		<%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+		 <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+	 	<%= csrf_meta_tags %>
+	<style type="text/css"> 
+		body {
+			background-image: url(<%= asset_path "coming-soon-bg.jpg" %> );
+			background-size: cover;
+		}
+		.centered {
+			position:relative; 
+			width:100%; 
+			margin:auto;
+			text-align: center;
+			font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+		}
+		.centered img {
+			margin-top: 120px;
+		}
+		.centered h1 {
+			font-size: 21px;
+			margin-top: 0px;
+			margin-bottom: 100px;
+		}
+		.centered p {
+
+		}
+		.centered p a:link {
+			color: #000;
+			text-decoration: none;
+		}
+		.centered p a:visited {
+			color: #000;
+			text-decoration: none;
+		}
+		.centered p a:hover {
+			color: #000;
+			text-decoration: underline;
+		}
+	 
+	</style>
+
+
+</head>
+
+<body>
+
+<div class="centered"> 
+	<%= image_tag "logo.png" %>
+    <h1>Democratizing Finance</h1>
+    
+    <p>Wanna join the bandwagon?<br />
+    email to <a href="mailto:general@koinworks.com">general@koinworks.com</a></p>
+</div>
+
+</body>
+</html>
